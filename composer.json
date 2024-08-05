@@ -1,0 +1,31 @@
+{
+    "name": "prabitha/face-match",
+    "description": "Face Verification Application", 
+    "keywords": ["face", "match", "verification"],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Prabitha\\FaceMatch\\": "src/"
+        }
+    },
+    "authors": [
+        {
+          "name": "Prabitha Vaikath",
+          "email": "prabitha@accurascan.com",
+          "homepage": "https://github.com/prabithavaikath",
+          "role": "Developer"
+        }
+      ],
+      "require": {
+        "php": ">=8.0"
+      },
+      "repositories": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/prabithavaikath/packges.git"
+        }
+      ],
+    "minimum-stability": "dev"
+   
+}
